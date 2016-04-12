@@ -1,0 +1,237 @@
+/*!
+ * Start Bootstrap - Half Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Facile Sans';
+    src: url('../fonts/Facile Sans.otf');
+}
+
+html,
+body {
+    height: 100%;
+    background: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Facile Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #0068FF;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+label {
+    color: #d7d7d7;
+}
+
+p {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
+
+.carousel {
+    height: 65%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+    line-height: 55px;
+    height: 70px;
+    padding-top: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-left: 0;
+}
+
+.navbar-inverse {
+    background: rgba(34, 34, 34, 0.9);
+}
+
+#logo {
+    display: inline; 
+    width: 130px; 
+    height: 55px;
+    transition: 0.3s;
+}
+
+#logo:hover {
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+}
+
+#ase {
+    display: inline; 
+    width: 50px; 
+    height: 51px;
+}
+
+#hours p {
+    color: black;
+}
+
+#different {
+    color: #C20B25;
+    text-shadow: 1px 1px #FFF;
+}
+
+#blue {
+    color: #0068FF;
+    text-shadow: 1px 1px #FFF;
+}
+
+#bum {
+    color: #0068FF;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-family: 'Facile Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #0078C4;
+    transition: 0.3s;
+}
+
+.form-control {
+    padding: 0 15px 2px;
+    font-size: 17px;
+    background: #fff;
+    border: 2px solid #ebebeb;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 -2px #ebebeb;
+    box-shadow: inset 0 -2px #ebebeb;
+    transition: .5s;
+}
+
+.form-control:focus {
+    border-color: #0068FF;
+    outline: none;
+    -webkit-box-shadow: inset 0 -2px #0068FF;
+    box-shadow: inset 0 -2px #0068FF;
+}
+
+.btn-primary {
+    background: #0068FF;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0088FF;
+    border: none;
+}
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.row {
+    padding: 30px;
+}
+
+.list-group-item {
+    border: none;
+    background: none;
+}
+
+.panel-default {
+    background: none;
+}
+
+.panel-primary>.panel-heading {
+    background-color: #0068FF;
+    text-align: center;
+    padding: 2px;
+}
+
+.col-lg-12 {
+    text-align: center;
+}
+
+#light-gray {
+    background: #d9d9d9;
+    padding-top: 20px;
+}
+
+.table {
+    text-align: left;
+}
+
+.panel-primary {
+    border: none;
+}
+
+@media(min-width: 800px) {
+    #logo {
+        position: absolute;
+        left: 0;
+    }
+
+    #ase {
+        position: absolute;
+        left: 130px;
+    }
+
+    #navbar {
+        position: absolute;
+        left: 200px;
+    }
+
+    #hours {
+    width: 250px;
+    height: 300px;
+    z-index: 9999;
+    background: rgba(34, 34, 34, 0.9);
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    }
+
+    #hours p {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #hours {
+        text-align: center;
+        display: none;
+    }
+
+    #coupon {
+        text-align: center;
+    }
+}

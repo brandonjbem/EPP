@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+rewritecond %{http_host} ^epicpixelproductions.com [nc]
+rewriterule ^(.*)$ http://www.epicpixelproductions.com/$1 [r=301,nc]
