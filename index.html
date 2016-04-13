@@ -24,7 +24,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/epp.css" type="text/css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,6 +35,18 @@
 </head>
 
 <body onload="shopOpenFunction()" id="page-top">
+    <script>
+    $(document).ready(function() {
+        $('.social-buttons li').mouseover(function() {
+            $(this).addClass('animate');
+        });
+        $('.social-buttons li').mouseover(function() {
+            var endBounce = setTimeout(function() {
+                $('.social-buttons li').removeClass('animate');
+            }, 2000);
+        });
+    }); // END OF SCRIPT
+    </script>
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
