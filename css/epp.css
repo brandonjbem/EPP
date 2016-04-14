@@ -64,60 +64,13 @@ body {
     background-color: #ADD68C;
 }
 
-@keyframes bounce {
-  0% {
-    transform:translateY(-25%);
-    
-  }
-  5% {
-    transform:translateY(-25%);
-    
-  }
-  15% {
-    transform:translateY(0);
-    
-  }
-  30% {
-    transform:translateY(-25%);
-  }
-  40% {
-    transform:translateY(0%);
-    
-  }
-  50% {
-    transform:translateY(-13%);
-  }
-  70% {
-    transform:translateY(0%);
-    
-  }
-  80% {
-    transform:translateY(-7%);
-  }
-  90% {
-    transform:translateY(0%);
-    
-  }
-  95% {
-    transform:translateY(-3%);
-  }
-  97% {
-    transform:translateY(0%);
-    
-  }
-  99% {
-    transform:translateY(-3%);
-  }
-  100% {
-    transform:translateY(0);
-    
-    
-  }
+@keyframes pulse {
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1.0);}
 }
 
 .animate {
-    animation: bounce 2s infinite;
-    position: relative;
+animation: pulse infinite 1s;
 }
 
 body {
@@ -300,10 +253,6 @@ ul.social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-}
-
-ul.social-buttons li a:hover {
-    background-color: #8AD3E0;
 }
 
 aside {

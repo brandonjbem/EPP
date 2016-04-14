@@ -35,18 +35,7 @@
 </head>
 
 <body onload="shopOpenFunction()" id="page-top">
-    <script>
-    $(document).ready(function() {
-        $('.social-buttons li').mouseover(function() {
-            $(this).addClass('animate');
-        });
-        $('.social-buttons li').mouseover(function() {
-            var endBounce = setTimeout(function() {
-                $('.social-buttons li').removeClass('animate');
-            }, 2000);
-        });
-    }); // END OF SCRIPT
-    </script>
+
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -402,6 +391,7 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/customJquery.js"></script>
     
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
