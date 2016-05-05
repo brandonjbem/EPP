@@ -56,6 +56,10 @@ body {
     border: 7px solid #8AD3E0;
 }
 
+#bluehover:hover {
+    background-color: #8AD3E0;
+}
+
 #melissa {
     border: 7px solid #ADD68C;
 }
